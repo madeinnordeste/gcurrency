@@ -9,4 +9,12 @@ Currency converter using Google services. Based on [Google Finance Converter](ht
 
 ##Example of use:
 
-	$cotacao = Gcurrency::convert('USD', 'BRL', 10);
+	$cotacao = Gcurrency::convert('USD', 'BRL', 1);
+	
+Expected Result:
+
+	(array) Array
+	(
+    	[0] => 1 USD
+	    [1] => 1.7490 BRL
+	)
